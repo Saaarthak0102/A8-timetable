@@ -1,0 +1,20 @@
+{
+    "name": "A8 Timetable",
+    "short_name": "Timetable",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#4CAF50",
+    "theme_color": "#4CAF50",
+    "icons": [
+        {
+            "src": "icon-192.png",
+            "sizes": "192x192",
+            "type": "https://static.vecteezy.com/system/resources/previews/002/387/755/non_2x/link-icon-free-vector.jpg"
+        },
+        {
+            "src": "icon-512.png",
+            "sizes": "512x512",
+            "type": "https://static.vecteezy.com/system/resources/previews/002/387/755/non_2x/link-icon-free-vector.jpg"
+        }
+    ]
+}
