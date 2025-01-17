@@ -202,11 +202,11 @@ body.dark-mode .header button:hover {
             <tbody>
                 <tr>
                     <td>Monday</td>
-                    <td class="red">MATHS<br>TS7</td>
+                    <td class="red">MATHS<br>TS8</td>
                     <td class="blue">PHYSICS<br>G1</td>
                     <td class="blue">SDF<br>G2</td>
                     <td>L</td>
-                    <td></td> 
+                    <td class="green">UHV<br>FF1</td> 
                     <td></td>
                     <td></td>
                     <td></td>
@@ -219,7 +219,7 @@ body.dark-mode .header button:hover {
                     <td></td>
                     <td></td>
                     <td class="blue">SDF<br>G3</td>
-                    <td class="green">UHV<br>TS10</td>
+                    <td class="red">UHV<br>TS10</td>
                     
                    
                 </tr>
@@ -248,7 +248,7 @@ body.dark-mode .header button:hover {
                     <td>Friday</td>
                     <td></td>
                     <td></td>
-                    <td class="green">UHV<br>FF1</td>
+                    <td></td>
                     <td>H</td>
                     <td class="blue">MATHS<br>G1</td>
                     <td class="lavender" colspan="3">Engineering Drawing and Design<br>CAD3</td>
@@ -289,15 +289,16 @@ body.dark-mode .header button:hover {
 
         const daySchedules = {
             Monday: [
-                { time: '9:00-9:50', subject: 'MATHS', location: 'TS7', color: 'red' },
+                { time: '9:00-9:50', subject: 'MATHS', location: 'TS8', color: 'red' },
                 { time: '10:00-10:50', subject: 'PHYSICS', location: 'G2', color: 'blue' },
-                { time: '11:00-11:50', subject: 'SDF', location: 'G2', color: 'blue' }
+                { time: '11:00-11:50', subject: 'SDF', location: 'G2', color: 'blue' },
+                { time: '1:00-1:50', subject: 'UHV', location: 'FF1', color: 'green' }
             ],
             Tuesday: [
                 { time: '9:00-9:50', subject: 'UHV', location: 'FF3', color: 'green' },
                 { time: '10:00-11:50', subject: 'PHYSICS LAB', location: 'PL02', color: 'lavendar' },
                 { time: '3:00-3:50', subject: 'SDF', location: 'G1', color: 'blue' },
-                { time: '3:00-3:50', subject: 'UHV', location: 'TS10', color: 'green' }
+                { time: '3:00-3:50', subject: 'UHV', location: 'TS10', color: 'red' }
             ],
             Wednesday: [
                 { time: '9:00-10:50', subject: 'SDF LAB', location: 'CL05', color: 'lavendar' },
@@ -311,7 +312,6 @@ body.dark-mode .header button:hover {
                 { time: '3:00-3:50', subject: 'SDF', location: 'TS8', color: 'red'}
             ],
             Friday: [
-                { time: '11:00-11:50', subject: 'UHV', location: 'FF1', color: 'green' },
                 { time: '1:00-1:50', subject: 'MATHS', location: 'G1', color: 'blue'},
                 { time: '2:00-4:50', subject: 'Engineering Drawing and Design', location: 'CAD2', color: 'lavender' }
             ],
